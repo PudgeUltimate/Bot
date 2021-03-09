@@ -22,7 +22,7 @@ def start(message):
 def cont(message):
     if message.text == 'Заткнииииись':
         bot.send_message(message.chat.id, 'Ты что тут на кнопки тыкаешь,а, быдло?', reply_markup=main())
-        audio = open(r'E:\cum.mp3', 'rb')
+        audio = open(r'cum.mp3', 'rb')
         bot.send_audio(message.chat.id, audio)
         audio.close()
     elif message.text == 'Анекдотик':
