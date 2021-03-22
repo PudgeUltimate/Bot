@@ -12,3 +12,4 @@ urllib3==1.26.3
 virtualenv==20.4.2
 virtualenv-clone==0.5.4
 vk==2.0.2
+vk-api==11.9.1
